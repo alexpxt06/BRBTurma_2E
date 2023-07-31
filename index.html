@@ -85,10 +85,10 @@
         const swiper = new Swiper('.swiper',{
             spaceBetween: 10,
             slidesPerView: 3,
-            pagination: (
-                el: 'swiper-pagination',
+            pagination: {
+                el: '.swiper-pagination',
                 type: 'bullets',
-            ),
+            },
         });
         </script>
 
@@ -104,5 +104,13 @@
 
             <div class="card__botões">
                 <ul class="botões">
+                    <li class="botões__item"> <img src="img/Favoritos.svg" alt="fvoritar"></li>
+                    <li class="botões__item"> <img src="img/Compras.svg" alt="Adicionar ao Carrinho de Compras"></li>
+                </ul>
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+</body>
+</html>
 
 
