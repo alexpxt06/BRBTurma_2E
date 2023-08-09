@@ -1,6 +1,9 @@
 @import url("style/header.css");
 @import url("stylee/banner.css");
 @import url("stylee/carrossel.css");
+@import url("stylee/topicos.css");
+@import url("stylee/contato.css");
+@import url("tylee/roape.css");
 
 :root{
     --cor-de-fundo: #EBECEE;
